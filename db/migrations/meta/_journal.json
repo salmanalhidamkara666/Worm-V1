@@ -1,0 +1,13 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1782664417442,
+      "tag": "0000_cultured_mole_man",
+      "breakpoints": true
+    }
+  ]
+}
