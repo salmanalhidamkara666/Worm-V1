@@ -2,11 +2,10 @@ import path from "path"
 const __dirname = import.meta.dirname
 import react from "@vitejs/plugin-react"
 import { defineConfig } from "vite"
-import { inspectAttr } from 'kimi-plugin-inspect-react'
 
 // https://vite.dev/config/
 export default defineConfig(async () => {
-  const plugins = [inspectAttr(), react()]
+  const plugins = [react()]
 
   if (process.env.NODE_ENV !== "production") {
     const devServer = (await import("@hono/vite-dev-server")).default
